@@ -1,0 +1,46 @@
+.wrapper {
+  background-color: #2b2d42;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  max-width: 1500px;
+
+}
+
+
+
+
+.title {
+  color: #edf2f4;
+  font-family: sans-serif;
+}
+
+.carousel-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 600px;
+  padding: 1rem;
+}
+
+
+img {
+  background-color: white;
+  margin: 1rem;
+  padding: 0.2rem;
+  /* margin: 0.5rem; */
+ 
+}
+
+img:hover {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 1);
+}
